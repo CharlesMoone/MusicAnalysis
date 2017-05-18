@@ -1,5 +1,7 @@
 # MusicAnalysis
 
+![](musicAnalysis.git)
+
 ## how to use it
 
 first you should fork or clone it
