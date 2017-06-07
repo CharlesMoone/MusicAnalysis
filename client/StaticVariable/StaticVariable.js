@@ -1,1 +1,0 @@
-export const URL_MUSIC_JUST_MET_U = '/resources/just_met_u';

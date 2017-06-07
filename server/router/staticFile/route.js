@@ -15,7 +15,7 @@ export default function register(server, options, next) {
     method: 'GET',
     path: '/resources/{filename}',
     handler: (request, reply) => {
-      reply.file(`resources/${request.params.filename}.flac`);
+      reply.file(`resources/${request.params.filename}`);
     },
   }]);
 
