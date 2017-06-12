@@ -4,6 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import * as actions from './actions';
+import AnalysisRender from 'components/AnalysisRender';
 
 
 function mapStateToProps(state) {
@@ -44,6 +45,10 @@ export default class MusicPlay extends Component {
   }
 
   render() {
-    return <div>hello, world</div>;
+    return (
+      <div>
+        <AnalysisRender />
+      </div>
+    );
   }
 }
